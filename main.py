@@ -7,8 +7,10 @@ from PIL import Image
 img_fldr = sys.argv[1]
 output_fldr = sys.argv[2]
 
+#if new folder to deposit converted pics does not exist, create it
 
-#if new folder to deposite converted pics does not exist, create it
+if not os.path.exists(output_fldr):
+    os.mkdir(output_fldr)
 
 #loop through image folder
 
