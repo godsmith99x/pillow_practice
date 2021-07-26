@@ -14,6 +14,10 @@ if not os.path.exists(output_fldr):
 
 #loop through image folder
 
+for pic in os.listdir(img_fldr):
+    img = Image.open(pic)
+    img.save(f"{output_fldr}/{pic}.png", "png")
+
 #convert to png
 
 #save to new folder
