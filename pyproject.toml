@@ -6,7 +6,7 @@ authors = ["godsmith99x <<>>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Pillow = "^8.3.1"
+Pillow = "^9.0.1"
 
 [tool.poetry.dev-dependencies]
 
